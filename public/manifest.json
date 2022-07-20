@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "To Do",
+  "name": "Progressive Web App",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,6 +16,32 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add To Do",
+      "short_name": "To Do",
+      "description": "Click '+' button to create To-Do",
+      "url": "/",
+      "icons": [
+        {
+          "src": "logo192.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Edit To Do",
+      "short_name": "Edit",
+      "description": "Delete or Cancel",
+      "url": "/",
+      "icons": [
+        {
+          "src": "logo192.png",
+          "sizes": "512x512"
+        }
+      ]
     }
   ],
   "start_url": ".",
