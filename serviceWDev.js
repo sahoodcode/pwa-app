@@ -1,12 +1,10 @@
 var CACHE_NAME = 'my-pwa';
 var urlsToCache = [
-    "./static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "./manifest.json",
     "./favicon.ico",
     "./logo192.png",
     "./static/css/main.ac3e4c53.css",
-    "./static/js/main.fb190471.js",
-    ".static/js/bundle.js",
+    "./static/js/main.63ec24f8.js",
     './'
 ];
 
