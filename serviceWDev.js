@@ -3,10 +3,10 @@ var urlsToCache = [
     "./manifest.json",
     "./favicon.ico",
     "./logo192.png",
-    "./static/css/main.63a7e188.css",
+    "./static/css/main.17464a0d.css",
     "./static/js/main.63ec24f8.js",
     './'
-];
+]
 
 self.addEventListener('install', event => {
     // Perform install steps
