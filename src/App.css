@@ -1,39 +1,152 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #06283D;
+}
+
+.app {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 100px;
+  transform: translate(-50%, -10%);
+}
+
+.app .mainHeading h1 {
   text-align: center;
-  background-color: blue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app h1,
+h2 {
   color: white;
+  margin: 10px;
+  font-family: verdana;
 }
 
-.App-link {
-  color: #61dafb;
+.app .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app .input {
+  margin-top: 5.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
 }
+
+.app .input input {
+  width: 100%;
+  height: 1.6em;
+  border-color: transparent;
+  outline-color: transparent;
+  padding-left: 15px;
+}
+
+.app .todos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app .todos .todo {
+  margin-top: 0.8em;
+  width: 20em;
+  height: 2em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.app .todos .todo .left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app .todos .todo .left p {
+  margin-left: 3px;
+  font-size: medium;
+  font-weight: 700;
+  font-style: normal;
+  color: grey;
+}
+
+.todo-box {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  height: 400px;
+  width: 100%;
+}
+
+.completed, .canceled {
+  background-color: #0245a8;
+  width: 40%;
+  min-height: 200px;
+  float: left;
+  margin: 5%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+
+.todo-box h1, h2, h3 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.todo-box p {
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff;
+}
+
+.todo-box h4 {
+  margin-top: 50px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+}
+
+.app input[type=button] {
+  color: #fff;
+  border-radius: 4px;
+  padding: 1.5px;
+  border: 1px;
+  background-color: #0245a8;
+}
+
+#icons8 {
+  margin-left: 40%;
+  bottom: 0;
+  position: absolute;
+}
+
+.cancel {
+  color: gray;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.subHeading {
+  margin-top: -70px;
+}/*# sourceMappingURL=App.css.map */
